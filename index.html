@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a kid named finger">
+    <meta name="author" content="GabrielHTX">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="a kid named finger">
+    <meta property="og:description" content="a kid named finger">
+    <meta property="og:image" content="kid.jpg">
+    <meta property="og:url" content="https://kidnamedfinger.com">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <title>a kid named finger</title>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 100vh;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="kid.jpg" alt="a kid named finger" onclick="playAudio()">
+    <audio id="audio" src="waltuh.mp3"></audio>
+
+    <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
+<!-- this is a stupid joke, there is no secrets here -->
+<!-- if you want to help with the domain costs: https://ko-fi.com/gabrielhtx -->
